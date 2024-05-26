@@ -1,0 +1,328 @@
+.App{
+  .Posts{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 130 px;
+    .post{
+      background-color:rgb(255, 255, 255);
+      display: flex;
+      gap: 50px;
+      margin: 20px;
+      border-radius: 0;
+      padding: 20px;
+      
+      .image{   
+        img{
+          width: 300px;
+          height: 300px;
+          border-radius: 0;
+        }
+      }
+      .titre{
+          position: relative;
+          padding: 15px ;
+          font-size: 18px;
+          letter-spacing: 1px;
+          text-decoration: none;
+          color: #383636;
+          background: transparent;
+          cursor: pointer;
+          border: 2px solid #000000;
+          border-radius: 10px;
+          margin: 15px;
+         
+        
+      }
+    }
+  }
+  
+  .auth{
+    width:50%;
+   height: 50%;
+   position: relative;
+   left: 150px;
+   top:12px;
+    margin-top: 30 px;
+    padding: 180px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   border: none;
+   background-image: url('https://st2.depositphotos.com/2124221/46809/i/450/depositphotos_468095768-stock-photo-abstract-multicolored-background-poly-pattern.jpg');
+  background-size: cover; /* Pour couvrir toute la surface */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+   a{
+    text-decoration: none;
+    color:#893030;
+  }
+  a:hover{
+    color:black;
+    font-size: 18px;
+  }
+  
+   
+   .titre{
+    color: #893030;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  } 
+   form{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      label{
+        color:#893030;
+        font-size: 18px;
+        text-align: left;
+
+      }
+      input {
+        width: 100%;
+        height: 40px;
+        line-height: 28px;
+        padding: 0 1rem;
+        padding-left: 2.5rem;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        outline: none;
+        background-color: #f3f3f4;
+        color: #0d0c22;
+        transition: .3s ease;
+       }
+       
+       input::placeholder {
+        color: #9e9ea7;
+       }
+       
+       input:focus, input:hover {
+        outline: none;
+        border-color: #f0680766;
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+       }
+       .btn-12 {
+        display: inline-block;
+        background-color: #893030;
+        color: #819091;
+        font-size: 1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 0.8rem 3rem;
+        border-radius: 0;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      .btn-12:hover {
+        background-color: #f0680766 ;
+        color: #819091;
+      }
+       
+      
+    }
+  }
+  .inscri{
+    width:50%;
+   position: relative;
+   left: 150px;
+    padding: 180px;
+    padding-top: 0px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   background-image: url('https://st2.depositphotos.com/2124221/46809/i/450/depositphotos_468095768-stock-photo-abstract-multicolored-background-poly-pattern.jpg');
+  background-size: cover; /* Pour couvrir toute la surface */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+   .titre{
+    color: #893030;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  } 
+  a{
+    text-decoration: none;
+    color:#893030;
+    margin-top: 14px;
+  }
+  a:hover{
+    color:black;
+    font-size: 18px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    label{
+      color:#893030;
+      font-size: 18px;
+      text-align: left;
+
+    }
+    input {
+      width: 100%;
+      height: 40px;
+      line-height: 28px;
+      padding: 0 1rem;
+      padding-left: 2.5rem;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      outline: none;
+      background-color: #f3f3f4;
+      color: #0d0c22;
+      transition: .3s ease;
+     }
+     
+     input::placeholder {
+      color: #9e9ea7;
+     }
+     
+     input:focus, input:hover {
+      outline: none;
+      border-color: #893030;
+      background-color: #fff;
+      box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+     }
+     .btn-12 {
+      display: inline-block;
+      background-color: #893030;
+      color: #819091;
+      font-size: 1rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 0.8rem 3rem;
+      border-radius: 0;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    
+    .btn-12:hover {
+      background-color: #f0680766 ;
+      color: #819091;
+    }
+}
+}
+.navbar {
+  font-size: 20px;
+  position: sticky;
+
+  .contenu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 50 px;
+
+    
+    .dom{
+      display: flex;
+      gap: 40px;
+      background-color: #ffffff;
+      padding: 1.75rem;
+     
+      a{
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        color:#893030;
+        font-weight: 550;
+        cursor: pointer;
+        transition: color 0.15s ease-in;  
+      }
+      a:hover{
+        color: #f0680766;
+      }
+      display: flex;
+      .trans  {
+        top: 0px;
+        display: flex;
+        gap: 10px;
+        a {
+          font-size: 11px;
+          --hover-color: #fff;
+          --arrow-width: 10px;
+          --arrow-stroke: 2px;
+          box-sizing: border-box;
+          border: 0;
+          border-radius: 20%;
+          color: #893030;
+          padding: 1em 1.8em;
+          background:#cdcece;
+          display: flex;
+          transition: 0.2s background;
+          align-items: center;
+          gap: 0.6em;
+          font-weight: bold;
+        }
+        
+        a .arrow-w {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        a .arrow {
+          margin-top: 1px;
+          width: var(--arrow-width);
+          background: var(--primary-color);
+          height: var(--arrow-stroke);
+          position: relative;
+          transition: 0.2s;
+        }
+        
+        a .arrow::before {
+          content: "";
+          box-sizing: border-box;
+          position: absolute;
+          border: solid var(--secondary-color);
+          border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+          display: inline-block;
+          top: -3px;
+          right: 3px;
+          transition: 0.2s;
+          padding: 3px;
+          transform: rotate(-45deg);
+        }
+        
+        a:hover {
+          background-color: var(--hover-color);
+        }
+        
+        a:hover .arrow {
+          background: var(--secondary-color);
+        }
+        
+        a:hover .arrow:before {
+          right: 0;
+        }
+        
+      }
+    }
+    .info{
+      font-size: 16px;
+      display: flex;
+      gap: 30px;
+      text-align: center;
+      .nom{
+        color: #4c3007;
+        display: flex;
+        flex-direction: column;
+      }
+      img{
+        width: 10%;
+        height: 10%;
+        border-radius: 30%;
+        border: 1 solid #000;
+      }
+    }
+    
+  }
+}
+}
